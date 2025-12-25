@@ -2,14 +2,15 @@
 
 This repository contains the solution and resources for the Econceptions assignment. The project is designed to process data and execute analysis scripts using Python.
 
-## 📂 Project Structure
+## Project Structure
 
 The repository is organized as follows:
 
 - **`datasets/`**: Contains the raw data files (CSV, Excel, etc.) used for analysis.
 - **`scripts/`**: Contains the Python source code and scripts required to process the data and generate results.
+- **`requirements.txt/`**: Contains the pandas library, used for analysis.
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up the project on your local machine.
 
@@ -45,9 +46,9 @@ python --version
    ```bash
    pip install -r requirements.txt
    ```
-   *(Note: If you have not generated a requirements file yet, you may need to install common data libraries manually, e.g., `pip install pandas numpy`)*
+   
 
-## 🛠 Usage
+## Usage
 
 To run the assignment scripts, navigate to the `scripts` directory and execute the main Python file.
 
@@ -55,4 +56,3 @@ To run the assignment scripts, navigate to the `scripts` directory and execute t
 cd scripts
 python <name_of_your_script>.py
 ```
-*(Replace `<name_of_your_script>.py` with the actual name of the script you wish to run, e.g., `main.py` or `analysis.py`)*
